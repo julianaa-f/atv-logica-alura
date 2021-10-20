@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+function pulaLinha(){
+
+	document.write("<br><br>");
+
+}
+
+function mostra(frase){
+
+	document.write(frase);
+	pulaLinha();
+
+}
+
+var anoAtual = 2021;
+var anosPassados = anoAtual - 1500;
+var divisaoMedia = anosPassados / 28;
+
+mostra("Já se passaram " + Math.round(divisaoMedia) + " gerações desde 1500.");
+
+</script>
